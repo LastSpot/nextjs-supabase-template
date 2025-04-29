@@ -154,19 +154,15 @@ export default function Navbar() {
             </NavigationMenuItem>
             {/* Pricing section */}
             <NavigationMenuItem>
-              <Link href="/pricing">
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  Pricing
-                </NavigationMenuLink>
-              </Link>
+              <NavigationMenuLink className={navigationMenuTriggerStyle()} href="/pricing">
+                Pricing
+              </NavigationMenuLink>
             </NavigationMenuItem>
             {/* Contact section */}
             <NavigationMenuItem>
-              <Link href="/contact">
-                <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-                  Contact
-                </NavigationMenuLink>
-              </Link>
+              <NavigationMenuLink className={navigationMenuTriggerStyle()} href="/contact">
+                Contact
+              </NavigationMenuLink>
             </NavigationMenuItem>
             {/*End of Navigation Menu*/}
           </NavigationMenuList>
